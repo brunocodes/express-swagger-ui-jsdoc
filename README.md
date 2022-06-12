@@ -9,3 +9,7 @@ git clone https://github.com/brunocodes/express-swagger-ui-jsdoc.git
 cd express-swagger-ui-jsdoc
 npm install
 ```
+* Run
+```
+npm run dev
+```
