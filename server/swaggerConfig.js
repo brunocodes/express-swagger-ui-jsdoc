@@ -1,7 +1,9 @@
 const swaggerUi    = require('swagger-ui-express')
 const swaggerJsdoc = require('swagger-jsdoc')
+const { PORT }     = require('./server')
 const API_VERSION  = process.env.API_VERSION || '0.0.1'
-const API_HOST     = 'localhost:5000'
+const API_HOST     = `localhost:${PORT}`
+
 const swaggerOptins = {
     definition: {
       openapi: '3.0.0',
